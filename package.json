@@ -9,6 +9,10 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DavidStenstroem/stenstroem-shared.git"
+  },
   "scripts": {
     "build": "rimraf ./dist && tsc",
     "test": "jest"
